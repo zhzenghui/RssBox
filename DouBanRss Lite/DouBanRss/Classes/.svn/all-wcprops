@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/doubanrss/!svn/ver/12/trunk/DouBanRss/DouBanRss/Classes
+END
+ChannelInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/doubanrss/!svn/ver/2/trunk/DouBanRss/DouBanRss/Classes/ChannelInfo.m
+END
+ParseOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/doubanrss/!svn/ver/2/trunk/DouBanRss/DouBanRss/Classes/ParseOperation.h
+END
+DRXmlToArr.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/doubanrss/!svn/ver/8/trunk/DouBanRss/DouBanRss/Classes/DRXmlToArr.h
+END
+DRContactsViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/doubanrss/!svn/ver/6/trunk/DouBanRss/DouBanRss/Classes/DRContactsViewController.xib
+END
+DRMovieViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/doubanrss/!svn/ver/6/trunk/DouBanRss/DouBanRss/Classes/DRMovieViewController.xib
+END
+ParseOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/doubanrss/!svn/ver/4/trunk/DouBanRss/DouBanRss/Classes/ParseOperation.m
+END
+DRXmlToArr.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/doubanrss/!svn/ver/8/trunk/DouBanRss/DouBanRss/Classes/DRXmlToArr.m
+END
+DRContactsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/doubanrss/!svn/ver/6/trunk/DouBanRss/DouBanRss/Classes/DRContactsViewController.h
+END
+DRMovieViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/doubanrss/!svn/ver/6/trunk/DouBanRss/DouBanRss/Classes/DRMovieViewController.h
+END
+DRitemRecords.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/doubanrss/!svn/ver/6/trunk/DouBanRss/DouBanRss/Classes/DRitemRecords.h
+END
+DRContactsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/doubanrss/!svn/ver/6/trunk/DouBanRss/DouBanRss/Classes/DRContactsViewController.m
+END
+DRHomeViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/doubanrss/!svn/ver/2/trunk/DouBanRss/DouBanRss/Classes/DRHomeViewController.xib
+END
+DRMovieViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/doubanrss/!svn/ver/6/trunk/DouBanRss/DouBanRss/Classes/DRMovieViewController.m
+END
+ItemInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/doubanrss/!svn/ver/2/trunk/DouBanRss/DouBanRss/Classes/ItemInfo.h
+END
+DRBookViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/doubanrss/!svn/ver/6/trunk/DouBanRss/DouBanRss/Classes/DRBookViewController.xib
+END
+DRitemRecords.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/doubanrss/!svn/ver/6/trunk/DouBanRss/DouBanRss/Classes/DRitemRecords.m
+END
+DRLatestViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/doubanrss/!svn/ver/2/trunk/DouBanRss/DouBanRss/Classes/DRLatestViewController.xib
+END
+DRHomeViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/doubanrss/!svn/ver/12/trunk/DouBanRss/DouBanRss/Classes/DRHomeViewController.h
+END
+DRBookViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/doubanrss/!svn/ver/6/trunk/DouBanRss/DouBanRss/Classes/DRBookViewController.h
+END
+ItemInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/doubanrss/!svn/ver/2/trunk/DouBanRss/DouBanRss/Classes/ItemInfo.m
+END
+DRLatestViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/doubanrss/!svn/ver/4/trunk/DouBanRss/DouBanRss/Classes/DRLatestViewController.h
+END
+DRHomeViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/doubanrss/!svn/ver/12/trunk/DouBanRss/DouBanRss/Classes/DRHomeViewController.m
+END
+DRBookViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/doubanrss/!svn/ver/6/trunk/DouBanRss/DouBanRss/Classes/DRBookViewController.m
+END
+ChannelInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/doubanrss/!svn/ver/2/trunk/DouBanRss/DouBanRss/Classes/ChannelInfo.h
+END
+DRLatestViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/doubanrss/!svn/ver/6/trunk/DouBanRss/DouBanRss/Classes/DRLatestViewController.m
+END
