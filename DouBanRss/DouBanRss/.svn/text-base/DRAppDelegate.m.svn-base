@@ -1,0 +1,143 @@
+//
+//  DRAppDelegate.m
+//  DouBanRss
+//
+//  Created by dong xin on 12-2-28.
+//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//
+
+#import "DRAppDelegate.h"
+
+#import "DRHomeViewController.h"
+
+
+#import "DRString.h"
+#import "DRUtility.h"
+
+@implementation DRAppDelegate
+
+@synthesize window = _window;
+@synthesize navigationController;
+@synthesize tabBarController;
+- (void)dealloc
+{
+    [_window release];
+    
+    [tabBarController release];
+    
+    [super dealloc];
+}
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+
+
+    DRHomeViewController *homeView = [DRHomeViewController alloc];
+    
+    navigationController = [[UINavigationController alloc] initWithRootViewController:homeView];
+    
+//    158 47 80
+    self.navigationController.navigationBar.tintColor = RGBA(158, 47, 80, 1);// [UIColor colorWithRed:158/255 green:47/255 blue:80/255 alpha:1];
+//                                                         [UIColor brownColor];//[UIColor colorWithRed:46 green:110 blue:70 alpha:1];
+    
+    [homeView release];
+    
+    
+    [self.window addSubview:navigationController.view];
+    
+    /*
+    tabBarController = [[UITabBarController alloc] init];
+    
+    DRLatestViewController *tab1 = [[[DRLatestViewController alloc] init] autorelease];
+    UINavigationController *tab1Nav = [[[UINavigationController alloc] init] autorelease];
+    [tab1Nav pushViewController:tab1 animated:YES];
+    tab1Nav.tabBarItem = [[[UITabBarItem alloc] initWithTitle:latest 
+                                                        image:nil 
+                                                          tag:0] autorelease];
+    
+ 
+    DRBookViewController *tab2 = [[[DRBookViewController alloc] init] autorelease];
+    UINavigationController *tab2Nav = [[[UINavigationController alloc] init] autorelease];
+    [tab2Nav pushViewController:tab2 animated:YES];
+    tab2Nav.tabBarItem = [[[UITabBarItem alloc] initWithTitle:book
+                                                        image:nil 
+                                                          tag:0] autorelease];
+    
+    
+    
+    DRMovieViewController *tab3 = [[[DRMovieViewController alloc] init] autorelease];
+    UINavigationController *tab3Nav = [[[UINavigationController alloc] init] autorelease];
+    [tab3Nav pushViewController:tab3 animated:YES];
+    tab3Nav.tabBarItem = [[[UITabBarItem alloc] initWithTitle:movie
+                                                        image:nil 
+                                                          tag:0] autorelease];
+
+    DRMusicViewController *tab4 = [[[DRMusicViewController alloc] init] autorelease];
+    UINavigationController *tab4Nav = [[[UINavigationController alloc] init] autorelease];
+    [tab4Nav pushViewController:tab4 animated:YES];
+    tab4Nav.tabBarItem = [[[UITabBarItem alloc] initWithTitle:music
+                                                        image:nil 
+                                                          tag:0] autorelease];
+    DRRssViewController *tab5 = [[[DRRssViewController alloc] init] autorelease];
+    UINavigationController *tab5Nav = [[[UINavigationController alloc] init] autorelease];
+    [tab5Nav pushViewController:tab5 animated:YES];
+    tab5Nav.tabBarItem = [[[UITabBarItem alloc] initWithTitle:me
+                                                        image:nil 
+                                                          tag:0] autorelease];
+    
+
+    
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:tab1Nav, tab2Nav, tab3Nav, tab4Nav, tab5Nav, nil];
+    
+    
+    [self.window addSubview:tabBarController.view]; 
+
+    */
+    
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    return YES;
+}
+
+- (void)applicationWillResignActive:(UIApplication *)application
+{
+    /*
+     Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
+     Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+     */
+}
+
+- (void)applicationDidEnterBackground:(UIApplication *)application
+{
+    /*
+     Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+     If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+     */
+}
+
+- (void)applicationWillEnterForeground:(UIApplication *)application
+{
+    /*
+     Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+     */
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+    /*
+     Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+     */
+}
+
+- (void)applicationWillTerminate:(UIApplication *)application
+{
+    /*
+     Called when the application is about to terminate.
+     Save data if appropriate.
+     See also applicationDidEnterBackground:.
+     */
+}
+
+@end

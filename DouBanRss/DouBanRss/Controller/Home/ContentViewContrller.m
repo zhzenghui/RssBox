@@ -1,0 +1,191 @@
+//
+//  ContentViewContrller.m
+//  DouBanRss
+//
+//  Created by dong xin on 12-2-29.
+//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//
+
+#import "ContentViewContrller.h"
+
+#import "DRUtility.h"
+
+@implementation ContentViewContrller
+@synthesize workingEntry;
+
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
+- (void)didReceiveMemoryWarning
+{
+    // Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+    
+    // Release any cached data, images, etc that aren't in use.
+}
+
+- (void)dealloc {
+    
+    [workingEntry release];
+    [super dealloc];
+      
+}
+
+- (void)html {
+    
+    /*
+     NSString* responseXMLResult = [[NSString alloc] initWithData:responseData 
+     encoding: CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000)];    
+     
+     
+     NSError *error;
+     //    GDataXMLDocument *doc = [[GDataXMLDocument alloc] initWithXMLString: responseXMLResult
+     //                                                                options:0 error:&error];
+     //    
+     
+     
+     GDataXMLDocument *doc = [[GDataXMLDocument alloc] initWithData:responseData options:0 error:&error];
+     
+     if (doc == nil) { return; }
+     
+     NSLog(@"LOG=%@", [[NSString alloc] initWithData:doc.XMLData encoding:NSUTF8StringEncoding]);
+     //NSLog(@"%@", doc.rootElement.XMLString);
+     
+     NSMutableString *resultString = [[NSMutableString alloc] initWithString:@"XML数据内容: \n"];
+     
+     //NSArray *partyMembers = [doc.rootElement elementsForName:@"Player"];
+     NSArray *partyMembers = [doc.rootElement nodesForXPath:@"//rss/channel" error:nil];
+     for (GDataXMLElement *partyMember in partyMembers) {
+     
+     NSLog(@"LOG=%@", [partyMembers objectAtIndex:0]);
+     
+     NSString *_name;
+     NSString *_level;
+     NSString *_class;
+     
+     // Name
+     //NSArray *names = [partyMember elementsForName:@"Name"];
+     NSArray *names = [partyMember nodesForXPath:@"li" error:nil];
+     if (names.count > 0) {
+     GDataXMLElement *firstName = (GDataXMLElement *) [names objectAtIndex:0];
+     
+     [itemRecord setObject:firstName.XMLString forKey:@"title"];
+     
+     //            _name = firstName.XMLString;
+     } else continue;
+     
+     // Level
+     NSArray *levels = [partyMember elementsForName:@"Level"];
+     if (levels.count > 0) {
+     GDataXMLElement *firstLevel = (GDataXMLElement *) [levels objectAtIndex:0];
+     _level = firstLevel.stringValue;
+     } else continue;
+     
+     // Class
+     NSArray *classes = [partyMember elementsForName:@"Class"];
+     if (classes.count > 0) {
+     GDataXMLElement *firstClass = (GDataXMLElement *) [classes objectAtIndex:0];
+     _class = firstClass.stringValue;
+     
+     } else continue;
+     
+     [resultString appendFormat:@"Name=%@",_name ];
+     [resultString appendFormat:@" Level=%@",_level ];
+     [resultString appendFormat:@" Class=%@\n",_class ];
+     
+     [itemRecords addObject:itemRecord];
+     [itemRecord removeAllObjects];
+     }*/
+}
+
+- (IBAction)myButtonHandlerAction:(id)sender {
+    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[workingEntry objectForKey:@"link"]]];
+}
+#pragma mark - View lifecycle
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
+    
+    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"浏览器打开" style:UIBarButtonItemStyleBordered target:self action:@selector(myButtonHandlerAction:)] autorelease];
+    
+    self.view.backgroundColor = RGBA(255, 241, 224, 1);
+    NSLog(@"%@", workingEntry);
+    
+    self.title =  [workingEntry objectForKey:@"title"];
+    if (! [[workingEntry objectForKey:@"description"] isEqualToString:@""] && ! [[workingEntry objectForKey:@"description"] isEqual:nil]) {
+        
+        NSString *description = [[NSString alloc] initWithFormat:[workingEntry objectForKey:@"description"]];
+        
+        if ([[description substringToIndex:0] isEqualToString:@"<"] ||  [[description substringToIndex:0] isEqualToString:@"&lt;"]) {
+            
+        
+            CGRect showRect = CGRectMake(0, 0, screenWidth, screenHeight-44);
+            
+            UITextView *tv = [[UITextView alloc] initWithFrame:showRect];
+            tv.backgroundColor = RGBA(255, 241, 224, 1) ;
+            tv.opaque = NO;
+            tv.showsHorizontalScrollIndicator = YES;
+            tv.font = [UIFont systemFontOfSize:15];
+            tv.text = description;
+
+            [self.view addSubview:tv];
+            
+            [tv release];
+             
+        }
+        else {
+            UIWebView *webView  = [[UIWebView alloc] init];
+            webView.frame = CGRectMake(0, 0, screenWidth, screenHeight-44);
+            webView.backgroundColor = [UIColor clearColor];
+            webView.backgroundColor = RGBA(255, 241, 224, 1) ;          
+            [webView loadHTMLString:description baseURL:nil];
+            
+            
+            [self.view addSubview:webView];
+            [webView release];
+        }
+        
+        [description release];
+    }
+    
+    else {
+        
+        CGRect showRect = CGRectMake(0, 0, screenWidth, screenHeight-44);
+        
+        UITextView *tv = [[UITextView alloc] initWithFrame:showRect];
+        tv.backgroundColor = [UIColor clearColor];
+        tv.showsHorizontalScrollIndicator = YES;
+        tv.font = [UIFont systemFontOfSize:15];
+        tv.text = @"没有内容";
+        
+        [self.view addSubview:tv];
+        
+        [tv release];
+
+    }
+}
+
+- (void)viewDidUnload
+{
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    // Return YES for supported orientations
+	return YES;
+}
+
+@end

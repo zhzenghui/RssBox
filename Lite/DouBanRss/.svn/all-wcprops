@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/doubanrss/!svn/ver/12/trunk/DouBanRss
+END
+ASIHTTPRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASIHTTPRequest.m
+END
+ASINetworkQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASINetworkQueue.h
+END
+TBXML.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/doubanrss/!svn/ver/10/trunk/DouBanRss/TBXML.m
+END
+ASIDataDecompressor.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASIDataDecompressor.h
+END
+ASINetworkQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASINetworkQueue.m
+END
+Reachability.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/doubanrss/!svn/ver/10/trunk/DouBanRss/Reachability.h
+END
+ASIDataDecompressor.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASIDataDecompressor.m
+END
+ASIFormDataRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASIFormDataRequest.h
+END
+Reachability.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/doubanrss/!svn/ver/10/trunk/DouBanRss/Reachability.m
+END
+ASIInputStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASIInputStream.h
+END
+ASIFormDataRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASIFormDataRequest.m
+END
+ASIHTTPRequestConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASIHTTPRequestConfig.h
+END
+ASIInputStream.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASIInputStream.m
+END
+App_Icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/doubanrss/!svn/ver/13/trunk/DouBanRss/App_Icon.png
+END
+AppIcon.png
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/doubanrss/!svn/ver/13/trunk/DouBanRss/AppIcon.png
+END
+ASIDownloadCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASIDownloadCache.h
+END
+ASICacheDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASICacheDelegate.h
+END
+ASIAuthenticationDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASIAuthenticationDialog.h
+END
+ASIProgressDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASIProgressDelegate.h
+END
+ASIDownloadCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASIDownloadCache.m
+END
+ASIAuthenticationDialog.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASIAuthenticationDialog.m
+END
+NSDataAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/doubanrss/!svn/ver/10/trunk/DouBanRss/NSDataAdditions.h
+END
+NSDataAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/doubanrss/!svn/ver/10/trunk/DouBanRss/NSDataAdditions.m
+END
+User.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/doubanrss/!svn/ver/6/trunk/DouBanRss/User.h
+END
+ASIHTTPRequestDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASIHTTPRequestDelegate.h
+END
+User.m
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/doubanrss/!svn/ver/7/trunk/DouBanRss/User.m
+END
+ASIDataCompressor.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASIDataCompressor.h
+END
+Icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/doubanrss/!svn/ver/13/trunk/DouBanRss/Icon.png
+END
+ASIHTTPRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASIHTTPRequest.h
+END
+TBXML.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/doubanrss/!svn/ver/10/trunk/DouBanRss/TBXML.h
+END
+ASIDataCompressor.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/doubanrss/!svn/ver/10/trunk/DouBanRss/ASIDataCompressor.m
+END

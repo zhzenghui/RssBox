@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/doubanrss/!svn/ver/12/trunk/DouBanRss/DouBanRss
+END
+DRRecommendViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/doubanrss/!svn/ver/9/trunk/DouBanRss/DouBanRss/DRRecommendViewController.xib
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/doubanrss/!svn/ver/2/trunk/DouBanRss/DouBanRss/main.m
+END
+KKUtility.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/doubanrss/!svn/ver/13/trunk/DouBanRss/DouBanRss/KKUtility.h
+END
+ContentViewContrller.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/doubanrss/!svn/ver/12/trunk/DouBanRss/DouBanRss/ContentViewContrller.h
+END
+DRAddRssContrller.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/doubanrss/!svn/ver/8/trunk/DouBanRss/DouBanRss/DRAddRssContrller.h
+END
+DRString.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/doubanrss/!svn/ver/8/trunk/DouBanRss/DouBanRss/DRString.h
+END
+DRRecommendViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/doubanrss/!svn/ver/12/trunk/DouBanRss/DouBanRss/DRRecommendViewController.h
+END
+ContentViewContrller.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/doubanrss/!svn/ver/12/trunk/DouBanRss/DouBanRss/ContentViewContrller.m
+END
+DRMusicViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/doubanrss/!svn/ver/6/trunk/DouBanRss/DouBanRss/DRMusicViewController.xib
+END
+DRAddRssContrller.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/doubanrss/!svn/ver/8/trunk/DouBanRss/DouBanRss/DRAddRssContrller.m
+END
+DRAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/doubanrss/!svn/ver/3/trunk/DouBanRss/DouBanRss/DRAppDelegate.h
+END
+DRRecommendViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/doubanrss/!svn/ver/12/trunk/DouBanRss/DouBanRss/DRRecommendViewController.m
+END
+DRMusicViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/doubanrss/!svn/ver/6/trunk/DouBanRss/DouBanRss/DRMusicViewController.h
+END
+DRAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/doubanrss/!svn/ver/12/trunk/DouBanRss/DouBanRss/DRAppDelegate.m
+END
+ItemInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/doubanrss/!svn/ver/12/trunk/DouBanRss/DouBanRss/ItemInfo.h
+END
+DRMusicViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/doubanrss/!svn/ver/6/trunk/DouBanRss/DouBanRss/DRMusicViewController.m
+END
+SecondViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/doubanrss/!svn/ver/2/trunk/DouBanRss/DouBanRss/SecondViewController.h
+END
+SecondViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/doubanrss/!svn/ver/2/trunk/DouBanRss/DouBanRss/SecondViewController.m
+END
+ItemInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/doubanrss/!svn/ver/12/trunk/DouBanRss/DouBanRss/ItemInfo.m
+END
+RssInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/doubanrss/!svn/ver/12/trunk/DouBanRss/DouBanRss/RssInfo.h
+END
+DRConnection.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/doubanrss/!svn/ver/2/trunk/DouBanRss/DouBanRss/DRConnection.h
+END
+DRRssViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/doubanrss/!svn/ver/2/trunk/DouBanRss/DouBanRss/DRRssViewController.xib
+END
+RssInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/doubanrss/!svn/ver/12/trunk/DouBanRss/DouBanRss/RssInfo.m
+END
+DRUtility.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/doubanrss/!svn/ver/11/trunk/DouBanRss/DouBanRss/DRUtility.h
+END
+DRMethodUtility.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/doubanrss/!svn/ver/11/trunk/DouBanRss/DouBanRss/DRMethodUtility.h
+END
+DRConnection.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/doubanrss/!svn/ver/4/trunk/DouBanRss/DouBanRss/DRConnection.m
+END
+Account.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/doubanrss/!svn/ver/8/trunk/DouBanRss/DouBanRss/Account.h
+END
+DRRssViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/doubanrss/!svn/ver/12/trunk/DouBanRss/DouBanRss/DRRssViewController.h
+END
+DouBanRss-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/doubanrss/!svn/ver/12/trunk/DouBanRss/DouBanRss/DouBanRss-Info.plist
+END
+DRMethodUtility.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/doubanrss/!svn/ver/11/trunk/DouBanRss/DouBanRss/DRMethodUtility.m
+END
+DRRssViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/doubanrss/!svn/ver/12/trunk/DouBanRss/DouBanRss/DRRssViewController.m
+END
+Account.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/doubanrss/!svn/ver/8/trunk/DouBanRss/DouBanRss/Account.m
+END
+RssList.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/doubanrss/!svn/ver/11/trunk/DouBanRss/DouBanRss/RssList.h
+END
+DRFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/doubanrss/!svn/ver/11/trunk/DouBanRss/DouBanRss/DRFile.h
+END
+RssList.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/doubanrss/!svn/ver/12/trunk/DouBanRss/DouBanRss/RssList.m
+END
+greadersubscriptions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/doubanrss/!svn/ver/12/trunk/DouBanRss/DouBanRss/greadersubscriptions.xml
+END
+DRFile.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/doubanrss/!svn/ver/11/trunk/DouBanRss/DouBanRss/DRFile.m
+END
+DouBanRss-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/doubanrss/!svn/ver/12/trunk/DouBanRss/DouBanRss/DouBanRss-Prefix.pch
+END
+ContentViewContrller.xib
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/doubanrss/!svn/ver/6/trunk/DouBanRss/DouBanRss/ContentViewContrller.xib
+END
+DRAddRssContrller.xib
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/doubanrss/!svn/ver/8/trunk/DouBanRss/DouBanRss/DRAddRssContrller.xib
+END
